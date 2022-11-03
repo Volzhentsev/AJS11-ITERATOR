@@ -33,4 +33,4 @@ test('set team to array', () => {
 test('iteration test', () => {
   const team = new Team();
   expect(team[Symbol.iterator]).toEqual(expect.any(Function));
-})
+});
